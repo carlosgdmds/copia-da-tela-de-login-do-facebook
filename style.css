@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:25px;
+}
+
+body{
+	width:100%;
+	min-height:100vh;
+	background-color:#f0f2f5;
+	margin:0;
+	padding-left:185px;
+	padding-top:100px;
+	justify-content:center;
+}
+.text-login{
+	padding-top:10px;
+}
+.contas-recentes{
+	padding-top:20px;
+}
+.contas-recentes img{
+	padding-left:5px;
+}
+.login{
+	position:absolute;
+	left:770px;
+	top:140px;
+        flex-direction:column;
+        background-color:white;
+        width:30%;
+	height:58%;
+        padding:30px; 
+        border-radius:3%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.email{
+	padding-bottom:10px;
+}
+.email input{
+	width:360px;
+	font-size:20px;
+	color:#dddfe2;
+	font-family:Arial;
+	padding: 10px;
+	border:1px solid #1877f2;
+	border-radius:5px ;
+}
+.senha{
+	padding-bottom:10px;
+}
+.senha input{
+	width:360px;
+	font-size:20px;
+	color:#dddfe2;
+	font-family:Arial;
+	padding:10px;
+	border:1px solid #1877f2;
+	border-radius:5px;
+}
+.entrar{
+	width:360px;
+	padding:10px;
+	color:white;
+	background-color:#1877f2;
+	border-radius:8px;
+}
+.esqueceu-senha{
+	padding:15px;
+}
+.esqueceu{
+	position:absolute;
+	left:150px;
+	font-size:15px;
+	color:#1877f2;
+}
+hr{
+	color:#dddfe2;
+}
+.criar-conta button{
+	position:absolute;
+	left:120px;
+	top:285px;
+	border: 1px solid #36a420;
+	border-radius:7px;
+	padding:5px 20px 5px;
+	background-color:#36a420;
+	color:white;
+	height:40px;
+	font-size:20px;
+}
+
+.clique{
+	font-size:15px;
+	color:gray;
+}
+.final{
+	padding:40px;
+	font-size:15px;
+	
+}
+.final a{
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+}
+.text-login{
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size:28px;
+}
+@font-face{
+	font-family:SFProDisplay-Regular;
+	src: url("fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+}
+
